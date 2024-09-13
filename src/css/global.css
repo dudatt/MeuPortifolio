@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.introduction {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navegation__social {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.navegation__social img {
+    opacity: 0.6;
+    transition: 0.3s all ease-out;
+}
+
+.navegation__social img:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+}
