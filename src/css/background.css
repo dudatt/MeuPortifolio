@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: up-down 7s linear infinite; 
+}
+
+.span1 {
+    left: 5%;
+    animation: up-down 7s linear infinite;
+}
+
+.span2 {
+    left: 14%;
+    animation: up-down 7s 1s linear infinite;
+}
+
+.span3 {
+    left: 21%;
+    animation: up-down 7s 5s linear infinite;
+}
+
+.span8 {
+    left: 35%;
+    animation: up-down 7s 2s linear infinite;
+}
+
+.span4 {
+    left: 44%;
+    animation: up-down 7s 4s linear infinite;
+}
+
+.span9 {
+    left: 53%;
+    animation: up-down 7s 2.5s linear infinite;
+}
+
+.span5 {
+    left: 60%;
+    animation: up-down 7s 4.5s linear infinite;
+}
+
+.span6 {
+    left: 77%;
+    animation: up-down 7s 2s linear infinite;
+}
+
+.span7 {
+    left: 87%;
+    animation: up-down 7s .2s linear infinite;
+}
+
+.span10 {
+    left: 90%;
+    animation: up-down 7s .9s linear infinite;
+}
+
+@keyframes up-down {
+    0% {
+        top:0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    1% {
+        background-color: #b69ed8;
+        box-shadow: 0 0 5px 0 rgba(red, green, blue, alpha);
+    }
+
+    100% {
+        top: calc(100% - 5px);
+    }
+}
